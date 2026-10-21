@@ -38,6 +38,14 @@ probar código antes de guardarlo.
   línea con `np.asarray(...)`, y se validó contra datos sintéticos (`alpha=0.25` y `alpha=0.75`)
   que el script corre sin errores y que las 7 pruebas originales siguen pasando después del
   cambio.
+- Se encontró un segundo error real en el `.gitignore` original del scaffold: excluía toda la
+  carpeta `reports/*` (solo conservaba `.gitkeep`), lo cual contradice tanto el mandato
+  ("Incluya ... reports ...") como las propias instrucciones de Git del manual de LAB08/LAB09
+  (`git add src scripts tests reports docs ...`). El primer commit del proyecto se hizo antes de
+  notar esto y por lo tanto no incluyó los reportes reales (popularidad, recomendaciones,
+  comparación híbrida, Pareto). Se corrigió el `.gitignore` (quitando la exclusión de
+  `reports/*`, manteniendo excluidos solo `data/raw/*` y `models/*`) y se hizo un commit nuevo
+  con los reportes ya versionados.
 
 ## Lo que la IA NO hizo
 No se fabricó ninguna métrica, figura ni número presentado en el notebook, el PDF o las Cards —

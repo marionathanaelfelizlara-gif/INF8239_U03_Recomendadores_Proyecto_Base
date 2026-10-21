@@ -1,0 +1,11 @@
+movieId,title,genres,mean,count
+356,Forrest Gump (1994),Comedy|Drama|Romance|War,4.161585365853658,328
+318,"Shawshank Redemption, The (1994)",Crime|Drama,4.428571428571429,315
+296,Pulp Fiction (1994),Comedy|Crime|Drama|Thriller,4.191803278688525,305
+2571,"Matrix, The (1999)",Action|Sci-Fi|Thriller,4.192446043165468,278
+593,"Silence of the Lambs, The (1991)",Crime|Horror|Thriller,4.15884476534296,277
+260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,4.231075697211155,251
+110,Braveheart (1995),Action|Drama|War,4.031645569620253,237
+480,Jurassic Park (1993),Action|Adventure|Sci-Fi|Thriller,3.7478813559322033,236
+589,Terminator 2: Judgment Day (1991),Action|Sci-Fi,3.9638009049773757,221
+2959,Fight Club (1999),Action|Crime|Drama|Thriller,4.272935779816514,218
